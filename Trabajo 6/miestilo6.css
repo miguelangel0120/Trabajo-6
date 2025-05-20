@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 10px;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #F2CF1D;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+#cabecera h1{
+    font-family: Helvetica;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#menu a{
+    color: darkslategray;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu a:hover{
+    background-color: dimgray;
+    color: white;
+}
+#logo{
+    width: 40%;
+}
+#logo img{
+    width: 100%;
+    position: relative;
+    left: 50%;
+}
+#personajes img{
+    width: 50%;
+    position: absolute;
+    left: 300px;
+    bottom: 950px;
+    filter: opacity(0.5);
+}
+#contenido{
+    padding: 10px;
+    height: 2300px;
+    margin-top: 0;
+    position: relative;
+}
+#contenido div{
+    margin: 20px;
+}
+#contenido li{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+p{
+    font-weight: 100;
+    text-align: justify;
+}
+h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 110px;
+    z-index: 20;
+}
